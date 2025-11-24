@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Asher Desai</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h1>Asher Desai</h1>
+      <p class="title">Consultant</p>
+      <div class="contact">
+        <p>Email: <a href="asherpdesai@gmail.com">asherpdesai@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/asherdesai" target="_blank">asherdesai</a></p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <section id="bio">
+        <h2>Biography</h2>
+        <p>I am an aspiring economics researcher interested in public transit and industrial organization.</p>
+      </section>
+
+      <section id="interests">
+        <h2>Interests</h2>
+        <ul>
+          <li>Industrial Organization</li>
+          <li>Public Sector Economics</li>
+          <li>Applied Microeconomics</li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>AB in Economics, Georgetown University</li>
+        </ul>
+      </section>
+
+      <section id="papers">
+        <h2>Working Papers</h2>
+        <ul>
+          <li><strong><a href="path/to/your-paper.pdf" target="_blank">Modal Substitution of Commuters Following Metro Service Disruptions</a></strong> — Estimates the impact of a derailment event on rail-bus substitution in Washington, DC.</li>
+        </ul>
+      </section>
+
+      <section id="wip">
+        <h2>Work in Progress</h2>
+        <ul>
+          <li><strong>Multilateral Bargaining in Patent Settlements</strong> — Investigates the properties of a model where a brand drug manufacturer negotiates patent settlements with multiple generic manufacturers using the Nash-in-Nash framework.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>© <span id="year"></span> Asher Desai</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
